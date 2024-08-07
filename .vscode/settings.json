@@ -1,0 +1,11 @@
+{
+  "auto-rename-tag.activationOnLanguage": ["*"],
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "explorer.confirmDragAndDrop": false,
+
+  "prettier.semi": false,
+  "prettier.trailingComma": "all",
+  "prettier.singleQuote": true
+}
