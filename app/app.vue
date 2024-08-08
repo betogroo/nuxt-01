@@ -1,8 +1,8 @@
 <script setup lang="ts">
-const layout = 'invert'
+//const layout = 'invert'
 </script>
 <template>
-  <NuxtLayout :name="layout">
+  <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
 </template>
