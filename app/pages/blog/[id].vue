@@ -5,5 +5,5 @@ const id = route.params.id
 </script>
 
 <template>
-  <div>We are on Blog - {{ id }}</div>
+  <div>We are on Blog - página {{ id }}</div>
 </template>
