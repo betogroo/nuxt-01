@@ -1,7 +1,10 @@
 <script setup lang="ts">
 definePageMeta({
   name: 'Blog',
-  navBar: true
+  navBar: true,
+})
+useSeoMeta({
+  title: 'Blog',
 })
 </script>
 
