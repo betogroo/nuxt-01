@@ -15,9 +15,16 @@ console.log(routes)
     <nav class="font-mono">
       <ul class="flex space-x-4">
         <li v-for="route in routes">
-          <NuxtLink :to="route.path">{{ route.meta.name }}</NuxtLink>
+          <NuxtLink :to="route.path" class="nav-bar-menu">{{
+            route.meta.name
+          }}</NuxtLink>
         </li>
       </ul>
     </nav>
   </header>
 </template>
+<style scoped>
+.nav-bar-menu {
+  @apply p-1 hover:bg-slate-500;
+}
+</style>
