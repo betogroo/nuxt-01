@@ -3,7 +3,6 @@ const router = useRouter()
 const routes = router
   .getRoutes()
   .filter((item) => item.meta && item.meta.navBar)
-console.log(routes)
 </script>
 <template>
   <header class="flex justify-between items-center bg-blue-200 px-2">

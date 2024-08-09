@@ -1,9 +1,8 @@
 <script setup lang="ts">
 definePageMeta({
   name: 'About',
-  navBar: true
+  navBar: true,
 })
-
 </script>
 
 <template>
