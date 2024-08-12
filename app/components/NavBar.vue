@@ -5,7 +5,7 @@ const routes = router
   .filter((item) => item.meta && item.meta.navBar)
 </script>
 <template>
-  <header class="flex justify-between items-center bg-blue-200 px-2">
+  <header class="flex justify-between items-center px-2">
     <div>
       <NuxtLink to="/" class="text-xl font-semibold hover:bg-gray-200 p-2"
         >betogroo</NuxtLink
@@ -20,10 +20,13 @@ const routes = router
         </li>
       </ul>
     </nav>
+    <ClientOnly>
+      <ColorModeSelector />
+    </ClientOnly>
   </header>
 </template>
 <style scoped>
 .nav-bar-menu {
-  @apply p-1 hover:bg-slate-500;
+  @apply p-1 hover:bg-gray-200;
 }
 </style>

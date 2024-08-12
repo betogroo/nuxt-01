@@ -16,7 +16,7 @@ useHead({
 </script>
 
 <template>
-  <div class="container mx-auto bg-gray-100 max-w-2xl">
+  <div class="container mx-auto max-w-2xl">
     <NavBar />
     <main class="p-2">
       <slot />
@@ -27,5 +27,8 @@ useHead({
 <style>
 body {
   font-family: 'Roboto';
+}
+body {
+  @apply bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300;
 }
 </style>
