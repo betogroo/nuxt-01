@@ -9,7 +9,7 @@ const props = defineProps<Props>()
   <section>
     <ul class="grid grid-cols-1 gap-4 items-center">
       <li
-        class="border border-gray-200 rounded-xl p-4 hover:bg-gray-200 font-mono"
+        class="border border-gray-200 rounded-xl p-4 mt-1 hover:bg-gray-200 font-mono"
       >
         <a :href="item.html_url" target="_blank">
           <div class="flex items-center justify-between text-sm">
